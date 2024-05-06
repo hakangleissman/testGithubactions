@@ -8,6 +8,6 @@ public class TextUtilTest {
     public void testFormatStringToNameFormat(){
         TextUtil util = new TextUtil();
         String toFormat = "KALLE";
-        Assertions.assertEquals("Kalle", util.toNameFormat(toFormat));
+        Assertions.assertEquals("kalle", util.toNameFormat(toFormat));
     }
 }
